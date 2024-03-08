@@ -9,10 +9,7 @@ function unsupported_arch() {
     echo "[*] Unsupported Architecture\n\n"
     printf "${reset}"
     exit
-}
-
-function ask() {
-    # http://djm.me/ask
+}    # http://djm.me/ask
     while true; do
 
         if [ "${2:-}" = "Y" ]; then
